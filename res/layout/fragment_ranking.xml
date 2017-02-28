@@ -1,0 +1,87 @@
+<!-- <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- xmlns:tools="http://schemas.android.com/tools" -->
+<!-- android:layout_width="match_parent" -->
+<!-- android:layout_height="match_parent" -->
+<!-- tools:context=".TeamRanking" > -->
+
+
+<!-- TODO: Update blank fragment layout -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TableLayout 
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow android:minHeight="15dp" >
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0198E1"
+        android:gravity="center_vertical"
+        android:minHeight="40dp" >
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/textView1" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:paddingLeft="15dp" -->
+        <!-- android:text="Rank" -->
+        <!-- android:minWidth="100dp" -->
+        <!-- android:textAppearance="?android:attr/textAppearanceMedium" -->
+
+
+        <!-- android:textColor="#FFFFFF"/> -->
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/Hash"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:paddingLeft="20dp"
+            android:text="@string/batsman"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+<!--         <TextView -->
+<!--             android:id="@+id/textView2" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:minWidth="100dp" -->
+<!--             android:paddingLeft="30dp" -->
+<!--             android:text="Team" -->
+<!--             android:textAppearance="?android:attr/textAppearanceMedium" -->
+<!--             android:textColor="#FFFFFF" /> -->
+        <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:paddingLeft="30dp"
+            android:text="@string/runs"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+    </TableRow>
+
+</TableLayout>
+</ScrollView>
+<!-- </FrameLayout> -->
